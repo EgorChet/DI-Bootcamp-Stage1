@@ -1,0 +1,44 @@
+#welcome {
+    background-color: green;
+    color: blue;
+}
+h1.heading {
+    color: blue;
+}
+/* This will overwrite the first two commands as css is cascade */
+h1.heading, #welcome {
+
+    color: red;
+}
+/* it will make everything purple unless specified otherwise */
+* {
+    color: purple
+}
+/* This will make the whole body background light blue but id welcome will stay green because we specified it opacity=transparency background-position supposed to move the backgorund picture to where stated   */
+body {
+    background-color: lightblue;
+    opacity: 0.9;
+    background-image: url("https://developers.institute/wp-content/uploads/2019/03/LOGO-DI.png");
+    background-position: right top;
+}
+p {
+    margin-left: 50px;
+    margin-right: 50%;
+    margin-top: 50px;
+    margin-bottom: 50%;
+    margin: 50px 50px 50px 50px;
+    margin-top: inherit;
+    border-style: dotted;
+    border-style: solid;
+    border-style: groove;
+    border-style: dashed;
+    border-style: solid dashed dotted none;
+    border-width: 10px 3px 12px 7px;
+    border-color: aqua aquamarine antiquewhite aliceblue;
+    border: 10px dashed purple 10px;
+    border-radius: 10px;
+/* it also can be ridge, outset, inset, none, hidden
+top right bottom left you can mix them in this order 
+*/
+}
+
