@@ -1,0 +1,12 @@
+body{
+	background-color: skyblue;
+}
+
+li:first-letter{
+    font-size: 24px;
+}
+
+ul{
+    list-style-type: none;
+	text-align: center;
+}
