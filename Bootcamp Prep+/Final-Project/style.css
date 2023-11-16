@@ -174,7 +174,7 @@ nav ul li a:hover {
 /* Styles for wrapping icons */
 .iconwrap {
   text-align: center; /* Centers the content */
-  width: 30%; /* Width of the wrapper */
+  width: 25%; /* Width of the wrapper */
   display: flex; /* Uses flexbox for layout */
   justify-content: space-between; /* Distributes space evenly between icons */
 }
@@ -182,7 +182,7 @@ nav ul li a:hover {
 /* Styles for large text elements */
 big {
   width: 77%; /* Width of the element */
-  padding-bottom: 2%; /* Padding at the bottom */
+  padding-bottom: 1%; /* Padding at the bottom */
 }
 
 /* Additional styling for the timeline section */
