@@ -1,0 +1,124 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+h1, .subtitle {
+  text-align: center;
+}
+
+.subtitle {
+  color: #555;
+}
+
+.timeline {
+  margin-top: 20px;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.timeline-year {
+  min-width: 60px;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.timeline-content {
+  flex: 1;
+}
+
+.container h2 {
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+.image-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  text-align: left;
+  margin: 1em 0;
+}
+
+.wikipedia-reference {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 1em 0;
+}
+
+.large-bold-link {
+  font-size: 24px; 
+  font-weight: bold;
+  text-align: center;
+}
+
+.timeline-year h2 {
+  width: 180px;
+  min-width: 100px;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0.5em 0;
+  text-align: left;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #bea7a7;
+  padding: 0 10px;
+}
+
+.header-logo {
+  width: 35px;
+  height: auto;
+}
+
+nav {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #bea7a7;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #b5a1a1;
+}
+
+
